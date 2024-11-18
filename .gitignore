@@ -1,0 +1,69 @@
+# Fișiere de build comune
+build/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+Makefile
+CMakeCache.txt
+compile_commands.json
+CTestTestfile.cmake
+cmake_install.cmake
+
+# Output binar
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.a
+*.lib
+*.obj
+*.o
+*.gch
+*.pdb
+
+# Fișiere de debug și log-uri
+*.log
+*.dSYM/
+*.stackdump
+
+# Fișiere temporare de editor
+*.swp
+*.swo
+*.tmp
+*~
+.idea/
+.vscode/
+*.user
+*.workspace
+
+# Fișiere de sistem
+.DS_Store
+Thumbs.db
+
+# Fișiere de backup generate de editoare
+*.bak
+*.old
+*.orig
+
+# Fișiere temporare sau cache
+*.cache
+*.tmp
+*.lock
+
+# Fișierele generate de compilatoare specific pentru Windows
+Debug/
+Release/
+x64/
+x86/
+.vs/
+
+# Fișiere specificate pentru MacOS
+*.xcuserdatad
+*.xcuserdata
+*.xcworkspace
+*.xcodeproj
+
+# Fișiere Python auto-generate de către build tools (dacă folosești un astfel de setup)
+__pycache__/
+*.pyc
